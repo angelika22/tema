@@ -1,0 +1,10 @@
+v=[3500, 5600, 3450, 5500, 3400, 6550, 2300]
+z=["L", "Ma", "Mie", "J", "V", "S", "D"]
+s=max(v)
+a=v.index(s)
+b=min(v)
+c=v.index(b)
+print("x=", sum(v))
+print("y=", sum(v)/7)
+print("w=", z[a])
+print("q=", z[c])
